@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="/fumaMenos/src/css/styleHomeMenu.css">
+</head>
+<body>
+    
+        
+    <div class="container1">
+        <span style="--l: 'F'">F</span>
+        <span style="--l: 'u'">u</span>
+        <span style="--l: 'm'">m</span>
+        <span style="--l: 'a'">a</span>
+        <span style="--l: '-'">-</span>
+    </div>
+
+
+    <div class="container" id="filter">
+    <table>
+
+        <tr>
+            <td>
+                <a href="/addConsumo" class="btn-neon1">
+                    <span id="span5"></span>
+                    <span id="span6"></span>
+                    <span id="span7"></span>
+                    <span id="span8"></span>
+                    ㅤ⠀ㅤㅤRegistrar consumo.
+                    
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td><br>
+                <a href="/report" class="btn-neon">
+                    <span id="span1"></span>
+                    <span id="span2"></span>
+                    <span id="span3"></span>
+                    <span id="span4"></span>
+                    ㅤㅤVer estadistica de consumo.
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td><br>
+                <a href="/consumos" class="btn-neon2">
+                    <span id="span9"></span>
+                    <span id="span10"></span>
+                    <span id="span11"></span>
+                    <span id="span12"></span>
+                    ㅤ⠀ㅤㅤㅤ⠀Ver historial.
+                </a>
+            </td>
+        </tr>
+
+        <tr>
+            <td><br>
+                <a href="/" class="btn-neon3">
+                    <span id="span13"></span>
+                    <span id="span14"></span>
+                    <span id="span15"></span>
+                    <span id="span16"></span>
+                   <center>Salir</center> 
+                </a>
+            </td>
+        </tr>
+        
+
+    </table>
+
+</div>
+<script>
+    window.localStorage.setItem('id','<%= id %>')
+</script>
+</body>
+</html>

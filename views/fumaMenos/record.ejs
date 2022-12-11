@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="fumaMenos/src/css/styleRecord.css">
+    <title>record</title>
+</head>
+<body>
+    <div class="container" id="filter">
+        <table class="content-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Fecha de registro</th>
+                <th>Hora que fumo</th>
+                <th>Cantidad de cigarrillos</th>
+                <th>Lugar</th>
+                <th>Emotion</th>
+                <th>Compania</th>
+                <th>comentario</th>
+                <th>Id_Usuario</th>
+              </tr>
+            </thead>
+        <tbody>
+
+            <% for( let consumo = 0; consumo < consumos.length; consumo++ ) { %>
+            
+                <tr class="active-row">
+                    <td><%= consumos[consumo].id %></td>
+                    <td><%= consumos[consumo].date %></td>
+                    <td><%= consumos[consumo].time %></td>
+                    <td><%= consumos[consumo].n_Cigarette %></td>
+                    <td><%= consumos[consumo].place %></td>
+                    <td><%= consumos[consumo].emotion %></td>
+                    <td><%= consumos[consumo].company %></td>
+                    <td><%= consumos[consumo].note %></td>
+                    <td><%= consumos[consumo].usuario_id_usuario %></td>
+                </tr>
+
+            <% } %>
+
+            
+        </tbody>
+    </table>
+
+</div>
+
+    
+    
+</body>
+</html>

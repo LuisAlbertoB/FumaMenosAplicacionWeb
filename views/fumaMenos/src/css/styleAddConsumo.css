@@ -1,0 +1,202 @@
+ @import url("http://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+.container1{
+    margin-left: -450px;
+    margin-top: -5px;
+    position: absolute;
+}
+
+.container1 span{
+    font-size: 100pt;
+    font-weight: bold;
+    position: relative;
+    font-family: "Fredoka One";
+    transition: all 300ms ease-in-out;
+}
+
+.container1 span::before{
+    content: var(--l);
+    position: absolute;
+    transform: scale(1px);
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    -webkit-transform: scale(1px);
+    -moz-transform: scale(1px);
+    -ms-transform: scale(1px);
+    -o-transform: scale(1px);
+}
+
+.container1 span:hover{
+    filter: contrast(400%);
+    -webkit-filter: contrast(400%);
+}
+
+.container1 span:nth-child(1){
+    color: #f87800;
+}
+.container1 span:nth-child(2){
+    color: #f87800;
+}
+.container1 span:nth-child(3){
+    color: #f87800;
+}
+.container1 span:nth-child(4){
+    color: #f87800;
+}
+.container1 span:nth-child(5){
+    color: #f87800;
+}
+
+
+
+body{
+    margin-top: 25px;
+    margin-left: 700px;
+    background-image: url(../img/imgcigarro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: movimiento 10s infinite linear alternate;
+    
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+      background-position: top right;  
+    }
+}
+    
+
+.container{
+    align-items: center;
+    border-radius: 30px;
+    font-size: 18px;
+    margin: auto;
+    color: #000000;
+    padding: 20px;
+    width: 265px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+#filter{
+    margin-top: 10px;
+    margin-left: 380px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.115);
+}
+input,textarea{
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 5px;
+    outline: none;
+    width: 100px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.field{
+    border: solid 2px #acacac;
+    padding: 	3px;
+    width: 252px;
+}
+.field:focus{
+    border-color: #ff9a03;
+
+}
+
+button {
+    margin: 1px 80px;
+    position: relative;
+    font-size: 16px;
+    border-color: rgba(0, 0, 0, 0.082);
+    border-radius: 5px;
+    background: #b44e00;
+    color: rgba(255, 255, 255, 0.558);
+    letter-spacing: 2px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: .3s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+button span {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(250, 158, 0, 0.2);
+    top: -50%;
+    left: -100%;
+    transition: .3s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+button:hover span {
+    left: -10%;
+}
+
+button:hover {
+    color: #000000;
+    background: #c58b0e;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .7);
+}
+
+#lb8{
+    
+    font-size: 15px;
+    text-transform: uppercase;
+    
+    color: #000000;
+    font-family: 'Fredoka One', cursive;
+    
+    
+}
+
+#lb9{
+    width: 200px;
+    border-radius: 5px;
+    color: #000000;
+    background-color: #ffffff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+::placeholder{
+    color: #000000;
+}
+#lb10{
+    width: 130px;
+}
+#lb11{
+    height: 15px;
+    width: 70px;
+}
+/*se cierra*/
+.general{
+    font-size: 14px;
+    color: #000000;
+    width: 480px;
+}
+
+#filter2{
+    margin-top: -500px;
+    margin-left: -480px;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.115);
+}

@@ -1,0 +1,165 @@
+@import url("http://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+.container1{
+    margin-left: -500px;
+    margin-top: -20px;
+    position: absolute;
+}
+
+.container1 span{
+    font-size: 80pt;
+    font-weight: bold;
+    position: relative;
+    font-family: "Fredoka One";
+    transition: all 300ms ease-in-out;
+}
+
+.container1 span::before{
+    content: var(--l);
+    position: absolute;
+    transform: scale(1px);
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    -webkit-transform: scale(1px);
+    -moz-transform: scale(1px);
+    -ms-transform: scale(1px);
+    -o-transform: scale(1px);
+}
+
+.container1 span:hover{
+    filter: contrast(400%);
+    -webkit-filter: contrast(400%);
+}
+.container1 span:nth-child(1){
+    color: #f87800;
+}
+.container1 span:nth-child(2){
+    color: #f87800;
+}
+.container1 span:nth-child(3){
+    color: #f87800;
+}
+.container1 span:nth-child(4){
+    color: #f87800;
+}
+.container1 span:nth-child(5){
+    color: #f87800;
+}
+
+body{
+    margin-top: 35px;
+    margin-left: 700px;
+    background-image: url(../img/tabaco.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: movimiento 10s infinite linear alternate;
+    
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+      background-position: top right;  
+    }
+}
+
+
+
+#filter{
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.115);
+}
+
+.bas1{
+    
+    color: aliceblue;
+    height: 100px;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: -600px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.bas2{
+    margin-left: -150px;
+    margin-top: -135px;
+    color: aliceblue;
+    height: 100px;
+    width: 400px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.bas3{
+    margin-left: 300px;
+    margin-top: -135px;
+    color: aliceblue;
+    height: 100px;
+    width: 400px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.bas4{
+    margin-left: -600px;
+    color: aliceblue;
+    height: 100px;
+    width: 400px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.bas5{
+    margin-left: -150px;
+    margin-top: -135px;
+    color: aliceblue;
+    height: 100px;
+    width: 400px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.bas6{
+    margin-left: 300px;
+    margin-top: -135px;
+    color: aliceblue;
+    height: 100px;
+    width: 400px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.bas7{
+    margin-left: -150px;
+    color: aliceblue;
+    height: 100px;
+    width: 400px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}

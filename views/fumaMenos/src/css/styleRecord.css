@@ -1,0 +1,74 @@
+body{
+    margin-top: 35px;
+    margin-left: 700px;
+    background-image: url(../img/cigarrogod.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: movimiento 10s infinite linear alternate;
+    
+}
+
+@keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+      background-position: top right;  
+    }
+}
+
+.container{
+    position: absolute;
+    border-radius: 30px;
+    font-size: 18px;
+    margin: auto;
+    color: #000000;
+    padding: 70px;
+    width: 810px;
+    height: 490px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+#filter{
+    margin-top: 10px;
+    margin-left: -250px;
+    
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: rgba(243, 243, 243, 0.115);
+}
+
+* {
+    /* Change your font family */
+    font-family: sans-serif;
+}
+
+.content-table {
+    border-collapse: collapse;
+    
+    font-size: 0.6em;
+    
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #f87800;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #f87800;
+}    
